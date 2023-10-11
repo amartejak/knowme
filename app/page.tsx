@@ -7,10 +7,11 @@ import { GithubIcon } from "@/components/icons";
 
 export default function Home() {
 	return (
+		
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Hi, This is &nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>Amar&nbsp;Teja&nbsp;Kommineni,&nbsp;</h1>
+				<h1 className={title()}>Hi, This is </h1>
+				<h1 className={title({ color: "yellow" })}>Amar&nbsp;Teja&nbsp;Kommineni</h1>
 				<br />
 				<h1 className={title()}>
 					Nice to meet you!
@@ -19,7 +20,6 @@ export default function Home() {
 					A Full Stack Developer, who loves to build things for the web and a Data Scientist.
 				</h2>
 			</div>
-
 			<div className="flex gap-3">
 				<Link
 					isExternal
@@ -29,6 +29,7 @@ export default function Home() {
 				>
 					Contact Me
 				</Link>
+
 				<Link
 					isExternal
 					as={NextLink}

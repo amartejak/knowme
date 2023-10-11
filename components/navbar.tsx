@@ -7,7 +7,6 @@ import {
 	NavbarItem,
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
@@ -82,7 +81,7 @@ export const Navbar = () => {
 				className="hidden sm:flex basis-1/5 sm:basis-full"
 				justify="end"
 			>
-				<NavbarItem className="hidden sm:flex gap-2">
+				<NavbarItem className="hidden lg:flex gap-3">
 					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
 						<TwitterIcon className="text-default-500" />
 					</Link>
@@ -95,15 +94,14 @@ export const Navbar = () => {
 					<ThemeSwitch />
 				</NavbarItem>
 				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-
 			</NavbarContent>
 
-			<NavbarContent className="max-width:1024px sm:hidden basis-1 pl-4" justify="end">
+			<NavbarContent className="max-width:1024 lg:hidden basis-1 pl-4" justify="end">
 				<Link isExternal href={siteConfig.links.github} aria-label="Github">
 					<GithubIcon className="text-default-500" />
 				</Link>
 				<ThemeSwitch />
-				<NavbarMenuToggle />
+				<NavbarMenuToggle className="lg:hidden"/>
 			</NavbarContent>
 
 			<NavbarMenu>
