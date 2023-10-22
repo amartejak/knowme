@@ -8,22 +8,22 @@ export const siteConfig = {
 			label: "Home",
 			href: "/",
 		},
-    {
-      label: "Resume",
-      href: "/resume",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    }
+		{
+		label: "Resume",
+		href: "/resume",
+		},
+		{
+		label: "Projects",
+		href: "/projects",
+		},
+		{
+		label: "Blog",
+		href: "/blog",
+		},
+		{
+		label: "About",
+		href: "/about",
+		}
 	],
 	navMenuItems: [
 		{
@@ -52,6 +52,7 @@ export const siteConfig = {
 		twitter: "https://twitter.com/1Amarteja",
 		docs: "https://nextui.org",
 		instagram: "https://www.instagram.com/amarteja_kommineni",
+		linkedin: "https://www.linkedin.com/in/amar-teja-kommineni-a5229b141",
     	sponsor: "https://patreon.com/jrgarciadev"
 	},
 };

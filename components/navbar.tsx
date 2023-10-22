@@ -19,14 +19,14 @@ import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
+	Logo,
 	TwitterIcon,
 	GithubIcon,
 	InstagramIcon,
+	LinkedinIcon,
 	HeartFilledIcon,
 	SearchIcon,
 } from "@/components/icons";
-
-import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
 	const searchInput = (
@@ -51,7 +51,7 @@ export const Navbar = () => {
 	);
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky">
+		<NextUINavbar isBordered maxWidth="full" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
@@ -65,7 +65,7 @@ export const Navbar = () => {
 							<NextLink
 								className={clsx(
 									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary data-[active=true]:font-medium"
+									"data-[active=true]:text-primary"
 								)}
 								color="foreground"
 								href={item.href}
@@ -90,6 +90,9 @@ export const Navbar = () => {
 					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
+					</Link>
+					<Link isExternal href={siteConfig.links.linkedin} aria-label="Linkedin">
+						<LinkedinIcon className="text-default-500" />
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>
