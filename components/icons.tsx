@@ -25,28 +25,7 @@ export const Logo: React.FC<IconSvgProps> = ({
 		transform="matrix(.05 0 0 -.05 0 300)"
 		fill="currentColor"
 		/>
-	</svg>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-);
+	</svg>);
 
 export const InstagramIcon: React.FC<IconSvgProps> = ({
 	size = 22,
