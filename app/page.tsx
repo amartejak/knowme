@@ -59,15 +59,15 @@ export default function Home() {
 					</motion.div>
 				</div>
 				</div>
-				<div className="grid h-screen bg-gray-600 mb-4 grid-cols-5 grid-rows-5 gap-10">
-					<div className= "mb-4 "><Card title="mycard1" alttext="" imageUrl="" /></div>
-					<div className= "mb-4" ><Card title="mycard2" alttext="" imageUrl="" /></div>
-					<div className= "mb-4" ><Card title="mycard3" alttext="" imageUrl="" /></div>
-					<div className= "mb-4"><Card title="mycard4"  alttext="" imageUrl="" /></div>
-					<div className="row-start-2 mb-4"><Card title="mycard4"  alttext="" imageUrl="" /></div>
-					<div className="row-start-2 mb-4"><Card title="mycard5"  alttext="" imageUrl="" /></div>
-					<div className="row-start-2 mb-4"><Card title="mycard6"  alttext="" imageUrl="" /></div>
-					<div className="row-start-2 mb-4"><Card title="mycard8"  alttext="" imageUrl="" /></div>
+				<div className="grid h-screen bg-gray-600 mb-10 grid-cols-5 grid-rows-5 gap-10">
+					<Card title="HTML" alttext="html" imageUrl="/html.svg" />
+					<Card title="mycard2" alttext="" imageUrl="" />
+					<Card title="mycard3" alttext="" imageUrl="" />
+					<Card title="mycard4"  alttext="" imageUrl="" />
+					<Card title="mycard4"  alttext="" imageUrl="" />
+					<Card title="mycard5"  alttext="" imageUrl="" />
+					<Card title="mycard6"  alttext="" imageUrl="" />
+					<Card title="mycard8"  alttext="" imageUrl="" />
 				</div>
 			
 		</section>
