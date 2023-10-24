@@ -59,15 +59,23 @@ export default function Home() {
 					</motion.div>
 				</div>
 				</div>
-				<div className="grid h-screen bg-gray-600 mb-10 grid-cols-5 grid-rows-5 gap-10">
-					<Card title="HTML" alttext="html" imageUrl="/html.svg" />
-					<Card title="mycard2" alttext="" imageUrl="" />
-					<Card title="mycard3" alttext="" imageUrl="" />
-					<Card title="mycard4"  alttext="" imageUrl="" />
-					<Card title="mycard4"  alttext="" imageUrl="" />
-					<Card title="mycard5"  alttext="" imageUrl="" />
-					<Card title="mycard6"  alttext="" imageUrl="" />
-					<Card title="mycard8"  alttext="" imageUrl="" />
+				<div className="p-10 m-10">
+					<div className="grid grid-cols-4 grid-rows-2 gap-4">
+						<div className= ""><Card title="ReactJs"  alttext="reactjs svg" imageUrl="/react.svg" /></div>
+						<div className= ""><Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" /></div>
+						<div className= ""><Card title="javascript" alttext="javascript svg" imageUrl="/js.svg" /></div>
+						<div className= ""><Card title="html" alttext="html svg" imageUrl="/html.svg" /></div>
+						<div className= ""><Card title="css" alttext="css svg" imageUrl="/css.svg" /></div>
+						<div className= ""><Card title="AWS"  alttext="aws svg" imageUrl="/aws.svg" /></div>
+						<div className= ""><Card title="Git"  alttext="git svg" imageUrl="/git.svg" /></div>
+						<div className= ""><Card title="Python"  alttext="python svg" imageUrl="/python.svg" /></div>
+						<div className= ""><Card title="Django"  alttext="Django svg" imageUrl="/django.svg" /></div>
+						<div className= ""><Card title="Flask"  alttext="flask svg" imageUrl="/flask.svg" /></div>
+						<div className= ""><Card title="Mongo DB"  alttext="mongodb svg" imageUrl="/mongodb.svg" /></div>
+						<div className= ""><Card title="MYSQL"  alttext="mysql svg" imageUrl="/mysql.svg" /></div>
+						<div className= ""><Card title="Linux"  alttext="linux png" imageUrl="/linux.png" /></div>
+						<div className= ""><Card title="Flutter"  alttext="flutter svg" imageUrl="/flutter.svg" /></div>
+					</div>
 				</div>
 			
 		</section>
