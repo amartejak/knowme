@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
 	name: "Amar Teja Kommineni",
-	description: "A Full Stack Developer, who loves to build things for the web and a Data Scientist",
+	description: "Amar Teja Kommineni's Personal Website",
 	navItems: [
 		{
 			label: "Home",
@@ -53,6 +53,5 @@ export const siteConfig = {
 		docs: "https://nextui.org",
 		instagram: "https://www.instagram.com/amarteja_kommineni",
 		linkedin: "https://www.linkedin.com/in/amar-teja-kommineni-a5229b141",
-    	sponsor: "https://patreon.com/jrgarciadev"
 	},
 };

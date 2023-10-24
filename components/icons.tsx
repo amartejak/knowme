@@ -84,7 +84,7 @@ export const GithubIcon: React.FC<IconSvgProps> = ({
 	return (
 		<svg
 			height={size || height}
-			viewBox="0 0 22 22"
+			viewBox="0 0 23 23"
 			width={size || width}
 			{...props}
 		>
@@ -108,7 +108,7 @@ export const LinkedinIcon: React.FC<IconSvgProps> = ({
 	return (
 		<svg 
 			height={size || height}
-			viewBox="0 0 22 22"
+			viewBox="0 0 23 23"
 			width={size || width}
 			{...props}
 		>
@@ -137,7 +137,7 @@ export const MoonFilledIcon = ({
 		focusable="false"
 		height={size || height}
 		role="presentation"
-		viewBox="0 0 22 22"
+		viewBox="0 0 24 24"
 		width={size || width}
 		{...props}
 	>
@@ -159,7 +159,7 @@ export const SunFilledIcon = ({
 		focusable="false"
 		height={size || height}
 		role="presentation"
-		viewBox="0 0 22 22"
+		viewBox="0 0 24 24"
 		width={size || width}
 		{...props}
 	>
