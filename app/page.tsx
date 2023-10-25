@@ -61,7 +61,7 @@ export default function Home() {
 			</div>
 
 			<div className="p-4 m-4"> {/* screen-div-2 */}
-				<h2 className="text-center mb-6 text-5xl font-semibold bg-inherit">My Skills</h2>
+				<h2 className="text-center mb-10 text-5xl font-semibold bg-inherit">My Skills</h2>
 				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 					<div className= ""><Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" /></div>
 					<div className= ""><Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" /></div>
@@ -78,7 +78,7 @@ export default function Home() {
 					<div className= ""><Card title="Linux"  alttext="linux png" imageUrl="/linux.png" /></div>
 					<div className= ""><Card title="Java"  alttext="java svg" imageUrl="/java.svg" /></div>
 					<div className= ""><Card title="Flutter"  alttext="flutter svg" imageUrl="/flutter.svg" /></div>
-					<div className= ""><Card title="R programming"  alttext="Rlanguage svg" imageUrl="/rlang.svg" /></div>
+					<div className= ""><Card title="R"  alttext="Rlanguage svg" imageUrl="/rlang.svg" /></div>
 				</div>
 			</div>
 			
