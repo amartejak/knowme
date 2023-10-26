@@ -4,7 +4,7 @@ export default function ResumePage() {
 	return (
 		<div className="flex justify-center w-screen h-screen">
 			<embed 
-				src={"/res.pdf"} 
+				src={"/resume.pdf"} 
 				type="application/pdf" 
 				width="1000" 
 				height="600" 
