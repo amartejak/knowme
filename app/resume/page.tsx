@@ -2,12 +2,11 @@ import { title } from "@/components/primitives";
 
 export default function ResumePage() {
 	return (
-		<div className="flex justify-center w-screen h-screen">
+		<div className="flex justify-center">
 			<embed 
 				src={"/resume.pdf"} 
 				type="application/pdf" 
-				width="1000" 
-				height="600" 
+				className="absolute inset-y-16 w-full h-full"
 				/>
 		</div>
 	);
