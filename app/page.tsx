@@ -87,7 +87,7 @@ export default function Home() {
 				<div className="flex flex-col">
 					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Full Stack Application Developer
-						<p className="text-left text-sm bg-inherit">ACM KITS - India | June 2018 - May 2021</p>
+						<p className="text-left text-sm bg-inherit">ACM KITS -AP INDIA | June 2018 - May 2021</p>
 						</h2>
 						
 						<ul className="list-disc  pl-8">
@@ -107,7 +107,7 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Data Scientist
-						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence,KS,USA | June 2018 - May 2021</p>
+						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence KS USA | Febraury 2023 - October 2023</p>
 						</h2>
 						
 						<ul className="list-disc  pl-8">
