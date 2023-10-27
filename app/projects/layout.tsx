@@ -4,8 +4,9 @@ export default function ProjectsLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 lg:py-8">
-			<div className="inline-block max-w-xl text-center justify-center">
+		<section className="container mx-auto w-full">
+			<div className="h-screen dark:bg-gradient-to-tl from-zinc-900 via-zinc-400/10 to-zinc-900">
+			{/* <div className="relative min-h-screen bg-gradient-to-tl from-zinc-900 via-zinc-400/10 to-zinc-900"> */}
 				{children}
 			</div>
 		</section>

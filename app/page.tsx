@@ -82,10 +82,56 @@ export default function Home() {
 				</div>
 			</div>
 			
-			<div>
-
-
-
+			<div className="p-4 m-4"> {/* screen-div-2 */}
+				<h2 className="text-center mb-6 text-5xl font-semibold bg-inherit">Experience</h2>
+				<div className="flex flex-col">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
+						<h2 className="text-left mb-6 text-3xl font-semibold">Full Stack Application Developer
+						<p className="text-left text-sm bg-inherit">ACM KITS - India | June 2018 - May 2021</p>
+						</h2>
+						
+						<ul className="list-disc  pl-8">
+							<li>
+							Actively participated in software development projects. This involved writing code, both front-end (HTML, CSS, JS/TypeScript - React) and back-end (Java - Node.js, Python - Django), to implement new features and functionalities for our applications.
+							</li>
+							<li>
+							Managed databases, creating and modifying databases, writing SQL queries to extract, insert, and update the databases.
+							</li>
+							<li>
+							Participated in code reviews with senior developers and team members. This allowed me to receive feedback on my code and learn from experienced developers&apos; best practices.
+							</li>
+							<li>
+							Delivered 20+ software features and enhancements, developed software components resulting in an average 50% increase in development speed.
+							</li>
+						</ul>
+					</div>
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
+						<h2 className="text-left mb-6 text-3xl font-semibold">Data Scientist
+						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence,KS,USA | June 2018 - May 2021</p>
+						</h2>
+						
+						<ul className="list-disc  pl-8">
+							<li>
+							Leveraged Python, SQL, and machine learning libraries (e.g., TensorFlow, Scikit-learn) to analyze complex datasets and develop predictive models.
+							</li>
+							<li>
+							Led data collection, cleaning, and preprocessing efforts, ensuring data quality and readiness for analysis.
+							</li>
+							<li>
+							Conducted A/B experiments, resulting in data-driven decisions that optimized processes and improved outcomes.
+							</li>
+							<li>
+							Created impactful data visualizations using Tableau and Matplotlib to effectively communicate insights.
+							</li>
+							<li>
+							Collaborated cross-functionally with teams, defining project goals and delivering data-driven solutions.
+							</li>
+							<li>
+							Documented methodologies and findings, ensuring transparency and knowledge sharing.
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 
 		</section>
