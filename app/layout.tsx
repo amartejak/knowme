@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
-import { Link } from "@nextui-org/link";
+import Link from 'next/link'
 import clsx from "clsx";
 
 export const metadata: Metadata = {
@@ -44,7 +44,32 @@ export default function RootLayout({
 						<main className="container mx-auto pt-16 px-2 flex-grow">
 							{children}
 						</main>
-						<footer className="w-full flex items-center justify-center py-3">
+						<footer id="footer" className="w-full flex flex-col items-center justify-center py-3">
+								<h2 className="text-5xl font-semibold bg-inherit">Contact Me</h2>
+								<div className="text-center p-4 bg-gray-200">
+									<div className="space-x-4">
+									<a
+										href="https://twitter.com/YourTwitterHandle"
+										className="bg-blue-400 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-500"
+									>
+										Twitter
+									</a>
+									<a
+										href="https://linkedin.com/in/YourLinkedInProfile"
+										className="bg-indigo-500 text-white font-medium px-4 py-2 rounded-full hover:bg-indigo-600"
+									>
+										LinkedIn
+									</a>
+									<a
+										href="https://github.com/YourGitHubProfile"
+										className="bg-gray-800 text-white font-medium px-4 py-2 rounded-full hover:bg-gray-900"
+									>
+										GitHub
+									</a>
+									</div>
+								</div>							
+								{/* <Link href={'mailto:amarteja2@outlook.com'}>Email</Link>
+								<Link href={""}></Link> */}
 								<span className="text-default-600">Thank For Visiting 😊 !</span>
 						</footer>
 					</div>
