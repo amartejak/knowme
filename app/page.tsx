@@ -60,25 +60,25 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="p-4 m-4"> {/* screen-div-2 */}
+			<div className="p-10 m-10"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 text-5xl font-semibold bg-inherit">My Skills</h2>
-				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-					<div className= ""><Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" /></div>
-					<div className= ""><Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" /></div>
-					<div className= ""><Card title="JavaScript" alttext="javascript svg" imageUrl="/js.svg" /></div>
-					<div className= ""><Card title="HTML" alttext="html svg" imageUrl="/html.svg" /></div>
-					<div className= ""><Card title="CSS" alttext="css svg" imageUrl="/css.svg" /></div>
-					<div className= ""><Card title="AWS"  alttext="aws svg" imageUrl="/aws.svg" /></div>
-					<div className= ""><Card title="Git"  alttext="git svg" imageUrl="/git.svg" /></div>
-					<div className= ""><Card title="Python"  alttext="python svg" imageUrl="/python.svg" /></div>
-					<div className= ""><Card title="Django"  alttext="Django svg" imageUrl="/django.svg" /></div>
-					<div className= ""><Card title="Flask"  alttext="flask svg" imageUrl="/flask.svg" /></div>
-					<div className= ""><Card title="Mongo DB"  alttext="mongodb svg" imageUrl="/mongodb.svg" /></div>
-					<div className= ""><Card title="MYSQL"  alttext="mysql svg" imageUrl="/mysql.svg" /></div>
-					<div className= ""><Card title="Linux"  alttext="linux png" imageUrl="/linux.png" /></div>
-					<div className= ""><Card title="Java"  alttext="java svg" imageUrl="/java.svg" /></div>
-					<div className= ""><Card title="Flutter"  alttext="flutter svg" imageUrl="/flutter.svg" /></div>
-					<div className= ""><Card title="R"  alttext="Rlanguage svg" imageUrl="/rlang.svg" /></div>
+				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4">
+					<Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" />
+					<Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" />
+					<Card title="JavaScript" alttext="javascript svg" imageUrl="/js.svg" />
+					<Card title="HTML" alttext="html svg" imageUrl="/html.svg" />
+					<Card title="CSS" alttext="css svg" imageUrl="/css.svg" />
+					<Card title="AWS"  alttext="aws svg" imageUrl="/aws.svg" />
+					<Card title="Git"  alttext="git svg" imageUrl="/git.svg" />
+					<Card title="Python"  alttext="python svg" imageUrl="/python.svg" />
+					<Card title="Django"  alttext="Django svg" imageUrl="/django.svg" />
+					<Card title="Flask"  alttext="flask svg" imageUrl="/flask.svg" />
+					<Card title="Mongo DB"  alttext="mongodb svg" imageUrl="/mongodb.svg" />
+					<Card title="MYSQL"  alttext="mysql svg" imageUrl="/mysql.svg" />
+					<Card title="Linux"  alttext="linux png" imageUrl="/linux.png" />
+					<Card title="Java"  alttext="java svg" imageUrl="/java.svg" />
+					<Card title="Flutter"  alttext="flutter svg" imageUrl="/flutter.svg" />
+					<Card title="R"  alttext="Rlanguage svg" imageUrl="/rlang.svg" />
 				</div>
 			</div>
 			
