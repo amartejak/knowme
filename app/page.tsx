@@ -59,9 +59,9 @@ export default function Home() {
 					</motion.div>
 				</div>
 			</div>
-
+			<SubNavbar />
 			<div id="section1" className="p-10 m-10"> {/* screen-div-2 */}
-				<h2 className="text-center mb-10 text-5xl font-semibold bg-inherit">My Skills</h2>
+				<h2 className="text-center mb-10 mt-10 text-5xl font-semibold bg-inherit">My Skills</h2>
 				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4">
 					<Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" />
 					<Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" />
@@ -83,7 +83,7 @@ export default function Home() {
 			</div>
 			
 			<div id="section2" className="p-4 m-4"> {/* screen-div-2 */}
-				<h2 className="text-center mb-6 text-5xl font-semibold bg-inherit">Experience</h2>
+				<h2 className="text-center mb-10 mt-12 text-5xl font-semibold bg-inherit">Experience</h2>
 				<div className="flex flex-col">
 					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Full Stack Application Developer

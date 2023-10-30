@@ -6,6 +6,8 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import Link from 'next/link'
 import clsx from "clsx";
+import Snavbar from "@/components/snav";
+import { ContactMe } from "@/components/contactme";
 
 export const metadata: Metadata = {
 	title: {
@@ -45,31 +47,7 @@ export default function RootLayout({
 							{children}
 						</main>
 						<footer id="footer" className="w-full flex flex-col items-center justify-center py-3">
-								<h2 className="text-5xl font-semibold bg-inherit">Contact Me</h2>
-								<div className="text-center p-4 bg-gray-200">
-									<div className="space-x-4">
-									<a
-										href="https://twitter.com/YourTwitterHandle"
-										className="bg-blue-400 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-500"
-									>
-										Twitter
-									</a>
-									<a
-										href="https://linkedin.com/in/YourLinkedInProfile"
-										className="bg-indigo-500 text-white font-medium px-4 py-2 rounded-full hover:bg-indigo-600"
-									>
-										LinkedIn
-									</a>
-									<a
-										href="https://github.com/YourGitHubProfile"
-										className="bg-gray-800 text-white font-medium px-4 py-2 rounded-full hover:bg-gray-900"
-									>
-										GitHub
-									</a>
-									</div>
-								</div>							
-								{/* <Link href={'mailto:amarteja2@outlook.com'}>Email</Link>
-								<Link href={""}></Link> */}
+							<ContactMe />
 								<span className="text-default-600">Thank For Visiting 😊 !</span>
 						</footer>
 					</div>

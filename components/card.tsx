@@ -11,7 +11,7 @@ interface CardProps {
 
 export const Card: React.FC<CardProps> = ({ title, alttext, imageUrl }) => {
 	return (
-		<div className="flex flex-col max-sm:flex-shrink-0 justify-center items-center max-md:min-w-[20vw] max-md:min-h-[20vh] lg:max-w-[20vw] lg:max-h-[20vw] bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
+		<div className="flex flex-col max-sm:flex-shrink-0 justify-center items-center max-md:min-w-[20vw] max-md:min-h-[20vh] lg:max-w-[20vw] lg:max-h-[20vw] bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-cyan-50 dark:hover:bg-cyan-950 transition-all ease-in-out duration-500">
 			<Image
 				src={imageUrl}
 				alt={alttext}
