@@ -11,7 +11,7 @@ import {
 export const ContactMe: React.FC = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center py-3">
-        <hr className="border-t border-current mb-2 w-full" />
+        <hr className="my-4 border-default-200 w-full" />
         <h2 className="text-4xl font-semibold text-inherit mb-4">Contact Me</h2>
         <div className="text-center mt-4 mb-4">
             <div className="flex space-x-4">

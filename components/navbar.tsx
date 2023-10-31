@@ -1,3 +1,4 @@
+"use client";
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -7,16 +8,11 @@ import {
 	NavbarItem,
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
+import Link from 'next/link'
+import {Link as Nlink} from "@nextui-org/link"
 import { Kbd } from "@nextui-org/kbd";
-import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
-
-import { link as linkStyles } from "@nextui-org/theme";
-
 import { siteConfig } from "@/config/site";
-import NextLink from "next/link";
-import clsx from "clsx";
-
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	Logo,
@@ -26,8 +22,11 @@ import {
 	LinkedinIcon,
 	SearchIcon,
 } from "@/components/icons";
+import { useRouter, usePathname} from "next/navigation"
 
 export const Navbar = () => {
+	const router = useRouter()
+	const pathname = usePathname()
 	const searchInput = (
 		<Input
 			aria-label="Search"
@@ -53,24 +52,22 @@ export const Navbar = () => {
 		<NextUINavbar isBordered maxWidth="2xl" position="sticky" className="bg-transperent fixed top-0">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
-					<NextLink className="flex justify-start items-center gap-1" href="/">
+					<Link className="flex justify-start items-center gap-1" href="/">
 						<Logo />
 						<p className="font-bold text-inherit">AMAR TEJA KOMMINENI</p>
-					</NextLink>
+					</Link>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
-							<NextLink
-								className={clsx(
-									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary"
-								)}
+							<Link
+								className={pathname === item.href ? ' text-blue-500' : 'active-link'}
 								color="foreground"
 								href={item.href}
+								target="_blank"
 							>
 								{item.label}
-							</NextLink>
+							</Link>
 						</NavbarItem>
 					))}
 				</ul>
@@ -81,16 +78,16 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden lg:flex gap-3">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
+					<Link href={siteConfig.links.twitter} aria-label="Twitter">
 						<TwitterIcon className="text-default-500" />
 					</Link>
-					<Link isExternal href={siteConfig.links.instagram} aria-label="Instagram">
+					<Link href={siteConfig.links.instagram} aria-label="Instagram">
 						<InstagramIcon className="text-default-500" />
 					</Link>
-					<Link isExternal href={siteConfig.links.github} aria-label="Github">
+					<Link href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
 					</Link>
-					<Link isExternal href={siteConfig.links.linkedin} aria-label="Linkedin">
+					<Link href={siteConfig.links.linkedin} aria-label="Linkedin">
 						<LinkedinIcon className="text-default-500" />
 					</Link>
 					<ThemeSwitch />
@@ -99,7 +96,7 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent className="max-width:1024 lg:hidden basis-1 pl-4" justify="end">
-				<Link isExternal href={siteConfig.links.github} aria-label="Github">
+				<Link href={siteConfig.links.github} aria-label="Github">
 					<GithubIcon className="text-default-500" />
 				</Link>
 				<ThemeSwitch />
@@ -111,13 +108,13 @@ export const Navbar = () => {
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item) => (
 						<NavbarMenuItem key={item.href}>
-							<Link
+							<Nlink
 								color="foreground"
 								href={item.href}
 								size="lg"
 							>
 								{item.label}
-							</Link>
+							</Nlink>
 						</NavbarMenuItem>
 					))}
 				</div>
