@@ -21,6 +21,7 @@ import {
 	InstagramIcon,
 	LinkedinIcon,
 	SearchIcon,
+	EmailIcon,
 } from "@/components/icons";
 import { useRouter, usePathname} from "next/navigation"
 
@@ -54,7 +55,8 @@ export const Navbar = () => {
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<Link className="flex justify-start items-center gap-1" href="/">
 						<Logo />
-						<p className="font-bold text-inherit">AMAR TEJA KOMMINENI</p>
+						<p className="font-bold text-inherit max-sm:hidden">AMAR TEJA KOMMINENI</p>
+						<p className="font-bold text-inherit sm:hidden">AMAR KOMMINENI</p>
 					</Link>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -64,7 +66,6 @@ export const Navbar = () => {
 								className={pathname === item.href ? ' text-blue-500' : 'active-link'}
 								color="foreground"
 								href={item.href}
-								target="_blank"
 							>
 								{item.label}
 							</Link>
@@ -77,18 +78,21 @@ export const Navbar = () => {
 				className="hidden sm:flex basis-1/5 sm:basis-full"
 				justify="end"
 			>
-				<NavbarItem className="hidden lg:flex gap-3">
-					<Link href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
+				<NavbarItem className="hidden lg:flex items-center gap-3 justify-center py-2">
+					<Link href={siteConfig.links.email} target="_blank" aria-label="Email">
+						<EmailIcon className="text-default-500" />
 					</Link>
-					<Link href={siteConfig.links.instagram} aria-label="Instagram">
-						<InstagramIcon className="text-default-500" />
+					<Link href={siteConfig.links.linkedin} target="_blank" aria-label="Linkedin">
+						<LinkedinIcon className="text-default-500" />
 					</Link>
-					<Link href={siteConfig.links.github} aria-label="Github">
+					<Link href={siteConfig.links.github} target="_blank" aria-label="Github">
 						<GithubIcon className="text-default-500" />
 					</Link>
-					<Link href={siteConfig.links.linkedin} aria-label="Linkedin">
-						<LinkedinIcon className="text-default-500" />
+					<Link href={siteConfig.links.twitter} target="_blank" aria-label="Twitter">
+						<TwitterIcon className="text-default-500" />
+					</Link>
+					<Link href={siteConfig.links.instagram} target="_blank" aria-label="Instagram">
+						<InstagramIcon className="text-default-500" />
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>
@@ -97,7 +101,7 @@ export const Navbar = () => {
 
 			<NavbarContent className="max-width:1024 lg:hidden basis-1 pl-4" justify="end">
 				<Link href={siteConfig.links.github} aria-label="Github">
-					<GithubIcon className="text-default-500" />
+					<GithubIcon className="text-default-500 max-sm:hidden" />
 				</Link>
 				<ThemeSwitch />
 				<NavbarMenuToggle className="lg:hidden"/>
@@ -106,6 +110,24 @@ export const Navbar = () => {
 			<NavbarMenu>
 				{searchInput}
 				<div className="mx-4 mt-2 flex flex-col gap-2">
+					<NavbarMenuItem className="flex flex-row items-center gap-3 py-2">
+						<Link href={siteConfig.links.email} target="_blank" aria-label="Email">
+							<EmailIcon className="text-default-500" />
+						</Link>
+						<Link href={siteConfig.links.linkedin} target="_blank" aria-label="Linkedin">
+							<LinkedinIcon className="text-default-500" />
+						</Link>
+						<Link href={siteConfig.links.github} target="_blank" aria-label="Github">
+							<GithubIcon className="text-default-500" />
+						</Link>
+						<Link href={siteConfig.links.twitter} target="_blank" aria-label="Twitter">
+							<TwitterIcon className="text-default-500" />
+						</Link>
+						<Link href={siteConfig.links.instagram} target="_blank" aria-label="Instagram">
+							<InstagramIcon className="text-default-500" />
+						</Link>
+						<ThemeSwitch />
+					</NavbarMenuItem>
 					{siteConfig.navMenuItems.map((item) => (
 						<NavbarMenuItem key={item.href}>
 							<Nlink

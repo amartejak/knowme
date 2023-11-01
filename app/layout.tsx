@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 	description: siteConfig.description,
 	icons: {
 		icon: "/react.svg",
-		shortcut: "/favicon-16x16.png",
-		apple: "/apple-touch-icon.png",
+		shortcut: "/react.svg",
+		apple: "/react.svg",
 	},
 };
 
@@ -44,7 +44,7 @@ export default function RootLayout({
 						</main>
 						<footer id="footer" className="w-full flex flex-col items-center justify-center py-3">
 							<ContactMe />
-								<span className="text-default-600">Thank For Visiting 😊 !</span>
+								<span className="text-default-600">Thanks For Visiting 😊 !</span>
 						</footer>
 					</div>
 				</Providers>

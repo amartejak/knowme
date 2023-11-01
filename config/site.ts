@@ -9,20 +9,20 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-		label: "Resume",
-		href: "/resume",
+			label: "Resume",
+			href: "/resume",
 		},
 		{
-		label: "Projects",
-		href: "/projects",
+			label: "Projects",
+			href: "/projects",
 		},
 		{
-		label: "Blog",
-		href: "/blog",
+			label: "Blog",
+			href: "/blog",
 		},
 		{
-		label: "About",
-		href: "/about",
+			label: "About",
+			href: "/about",
 		}
 	],
 	navMenuItems: [
@@ -50,8 +50,8 @@ export const siteConfig = {
 	links: {
 		github: "https://github.com/amartejak",
 		twitter: "https://twitter.com/1Amarteja",
-		docs: "https://nextui.org",
 		instagram: "https://www.instagram.com/amarteja_kommineni",
 		linkedin: "https://www.linkedin.com/in/amar-teja-kommineni-a5229b141",
+		email: "mailto:amarteja2@outlook.com"
 	},
 };
