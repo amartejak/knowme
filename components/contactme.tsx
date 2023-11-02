@@ -18,7 +18,9 @@ export const ContactMe: React.FC = () => {
 
   return (
     <div className="w-full flex flex-col items-center justify-center py-3">
-		<ArrowIcon size={30} onClick={scrollToTop} className="border dark:bg-black border-gray-700 shadow-lg dark:shadow-gray-400/50 shadow-gray-700/50 rounded-full animate-bounce"/>
+		<button type='button' onClick={scrollToTop} className="border dark:bg-black border-gray-700 shadow-md dark:shadow-gray-400/50 shadow-gray-700/50 rounded-full animate-bounce">
+        <ArrowIcon size={30} />
+        </button>
         <hr className="my-4 border-default-200 w-full" />
         <h2 className="text-4xl font-semibold text-inherit mb-4">Contact Me</h2>
         <div className="text-center mt-4 mb-4">

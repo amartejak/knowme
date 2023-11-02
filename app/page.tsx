@@ -7,6 +7,7 @@ import { GithubIcon } from "@/components/icons";
 import { Card } from "@/components/card";
 import {motion} from 'framer-motion';
 import SubNavbar from "@/components/subnavbar";
+import HeroSection from "@/components/hero";
 
 export default function Home() {
 	return (
