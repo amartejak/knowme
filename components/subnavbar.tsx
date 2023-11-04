@@ -2,16 +2,16 @@ import React from 'react';
 
 const SubNavbar: React.FC = () => {
   return (
-    <nav className="bg-blue-500 p-4">
+    <nav className="p-4">
       <ul className="flex space-x-4">
         <li>
-          <a href="#section1">Section 1</a>
+          <a href="#skills" className="text-inherit hover:text-white font-medium px-4 py-2 gap-2 rounded-full border hover:bg-black hover:border-gray-700 shadow-xl shadow-gray-700/50">My Skills</a>
         </li>
         <li>
-          <a href="#section2">Section 2</a>
+          <a href="#experience" className="text-inherit hover:text-white font-medium px-4 py-2 gap-2 rounded-full border hover:bg-black hover:border-gray-700 shadow-xl shadow-gray-700/50">Experience</a>
         </li>
         <li>
-          <a href="#footer">Section 3</a>
+          <a href="#contact" className="text-inherit hover:text-white font-medium px-4 py-2 gap-2 rounded-full border hover:bg-black hover:border-gray-700 shadow-xl shadow-gray-700/50">Contact</a>
         </li>
       </ul>
     </nav>

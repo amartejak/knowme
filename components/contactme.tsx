@@ -22,7 +22,7 @@ export const ContactMe: React.FC = () => {
         <ArrowIcon size={30} />
         </button>
         <hr className="my-4 border-default-200 w-full" />
-        <h2 className="text-4xl font-semibold text-inherit mb-4">Contact Me</h2>
+        <h2 id="contact" className="text-4xl font-semibold text-inherit mb-4">Contact Me</h2>
         <div className="text-center mt-4 mb-4">
             <div className="flex max-lg:flex-col">
             <a

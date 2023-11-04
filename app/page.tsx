@@ -1,20 +1,32 @@
 "use client";
 import NextLink from "next/link";
 import { Link } from "@nextui-org/link";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { button as buttonStyles, image } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { GithubIcon } from "@/components/icons";
 import { Card } from "@/components/card";
 import {motion} from 'framer-motion';
 import SubNavbar from "@/components/subnavbar";
-import HeroSection from "@/components/hero";
+import { Chakra } from "@/components/icons";
+import Image from "next/image"
 
 export default function Home() {
+	const containerStyle = {
+		backgroundImage: `url('/hero.svg')`,
+		backgroundSize: 'contain',
+		backgroundRepeat: 'no-repeat',
+		backgroundPosition: 'center',
+		width: '100%',
+		height: '100vh',
+		animation: 'rotate 10s linear infinite', // Adjust the duration and animation name as needed
+	  };
+	
 	return (
 		<section className="">
-			<div className="lg:flex h-screen">  {/* screen-div-1 */}
-				<div className = "flex flex-col max-lg:h-1/2 lg:w-1/2 justify-center">
-					<div className="self-center">
+			<div className="relative h-screen flex items-center justify-center">  {/* screen-div-1 */}
+
+				<Chakra className="absolute inset-y-0 z-0 w-full h-[95vh] text-center fill-transparent dark:stroke-zinc-600 stroke-zinc-300 spin-slow"/>
+				<div className="relative z-10 p-10"><div className="self-center">
 						<h1 className="text-center  tracking-tight font-semibold text-4xl lg:text-5xl">Hi, This is&nbsp;</h1>
 						<h1 className="text-center  bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
 						<h1 className="text-center  tracking-tight font-semibold text-4xl lg:text-5xl">
@@ -25,43 +37,12 @@ export default function Home() {
 						</h2>
 					</div>
 					<div className="flex pt-4 gap-2 justify-center py-2">
-						<Link
-							as={NextLink}
-							href={"#footer"}
-							className={buttonStyles({ color:"primary", radius: "full", variant: "shadow", size:"lg"})}
-							>
-							Contact Me
-						</Link>
-						<Link
-							isExternal
-							as={NextLink}
-							className={buttonStyles({ variant: "bordered", radius: "full", size: "lg"})}
-							href={siteConfig.links.github}
-						>
-							<GithubIcon size={20} /> Github
-						</Link>
+						<SubNavbar />
 					</div>	
 				</div>
-				<div className="flex justify-center max-lg:h-1/2 lg:w-1/2" >
-					<motion.div animate={{
-						scale: [1, 2, 2, 1, 1],
-						rotate: [0, 0, 270, 270, 0],
-						borderRadius: ["20%", "20%", "50%", "50%", "20%"]
-					}}
-					transition={{
-						duration: 2,
-						ease: "easeInOut",
-						times: [0, 0.2, 0.5, 0.8, 1],
-						repeat: Infinity,
-						repeatDelay: 1
-					}} 
-					className="w-32 h-32 self-center bg-gradient-to-r from-red-500 to-yellow-500 shadow-xl"
-					>
-					</motion.div>
-				</div>
 			</div>
-			<SubNavbar />
-			<div id="section1" className="p-10 m-10"> {/* screen-div-2 */}
+			
+			<div id="skills" className="p-10 m-10"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-10 text-5xl font-semibold bg-inherit">My Skills</h2>
 				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4">
 					<Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" />
@@ -83,7 +64,7 @@ export default function Home() {
 				</div>
 			</div>
 			
-			<div id="section2" className="p-4 m-4"> {/* screen-div-2 */}
+			<div id="experience" className="p-4 m-4"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-12 text-5xl font-semibold bg-inherit">Experience</h2>
 				<div className="flex flex-col">
 					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">

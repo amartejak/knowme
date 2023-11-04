@@ -63,7 +63,7 @@ export const Navbar = () => {
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<Link
-								className={pathname === item.href ? ' text-blue-500' : 'active-link'}
+								className={pathname === item.href ? ' text-gray-500 font-bold text-md' : 'font-bold'}
 								color="foreground"
 								href={item.href}
 							>
@@ -108,7 +108,6 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarMenu>
-				{searchInput}
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					<NavbarMenuItem className="flex flex-row items-center gap-3 py-2">
 						<Link href={siteConfig.links.email} target="_blank" aria-label="Email">
