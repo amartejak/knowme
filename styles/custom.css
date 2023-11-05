@@ -28,7 +28,7 @@
   
 
 .spin-slow {
-    animation: spin-slow 150s linear infinite; /* Adjust the duration (e.g., 3s) as needed */
+    animation: spin-slow 150s linear infinite;
   }
   
   

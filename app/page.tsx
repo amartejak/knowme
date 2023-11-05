@@ -1,14 +1,7 @@
-"use client";
-import NextLink from "next/link";
-import { Link } from "@nextui-org/link";
-import { button as buttonStyles, image } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { GithubIcon } from "@/components/icons";
 import { Card } from "@/components/card";
-import {motion} from 'framer-motion';
 import SubNavbar from "@/components/subnavbar";
 import { Chakra } from "@/components/icons";
-import Image from "next/image"
+
 
 export default function Home() {
 	const containerStyle = {
@@ -26,17 +19,18 @@ export default function Home() {
 			<div className="relative h-screen flex items-center justify-center">  {/* screen-div-1 */}
 
 				<Chakra className="absolute inset-y-0 z-0 w-full h-[95vh] text-center fill-transparent dark:stroke-zinc-600 stroke-zinc-300 spin-slow"/>
-				<div className="relative z-10 p-10"><div className="self-center">
-						<h1 className="text-center  tracking-tight font-semibold text-4xl lg:text-5xl">Hi, This is&nbsp;</h1>
-						<h1 className="text-center  bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
-						<h1 className="text-center  tracking-tight font-semibold text-4xl lg:text-5xl">
+				<div className="relative z-10 p-10">
+					<div className="mt-18 mb-2 self-center">
+						<h1 className="text-left  tracking-tight text-opacity-30 dark:text-zinc-400 text-inherit text-xl lg:text-xl">Hi, This is&nbsp;</h1>
+						<h1 className="text-center self-center border-t-2 border-b-2 border-zinc-300 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
+						<h1 className="text-right tracking-tight text-xl dark:text-zinc-400  text-inherit lg:text-xl">
 							Nice to meet you!
 						</h1>
-						<h2 className="pt-4 text-center tracking-tight text-xl lg:text-2xl">
+						<h2 className="mt-2 text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl">
 							A Full Stack Developer, who loves to build things for the web.
 						</h2>
 					</div>
-					<div className="flex pt-4 gap-2 justify-center py-2">
+					<div className="flex justify-center">
 						<SubNavbar />
 					</div>	
 				</div>
