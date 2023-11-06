@@ -23,7 +23,7 @@ export const ProjectCard: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<div
 			onMouseMove={onMouseMove}
-			className="relative duration-700 border rounded-xl hover:bg-zinc-600/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-600 "
+			className="relative duration-700 min-w-[30vw] min-h-[30vh] border rounded-xl hover:bg-zinc-600/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-600 "
 		>
 			<div className="pointer-events-none">
 				<div className="absolute inset-0 z-0  transition duration-1000 [mask-image:linear-gradient(black,transparent)]" />
