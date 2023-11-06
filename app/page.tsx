@@ -3,31 +3,17 @@ import SubNavbar from "@/components/subnavbar";
 import { Chakra } from "@/components/icons";
 
 
-export default function Home() {
-	const containerStyle = {
-		backgroundImage: `url('/hero.svg')`,
-		backgroundSize: 'contain',
-		backgroundRepeat: 'no-repeat',
-		backgroundPosition: 'center',
-		width: '100%',
-		height: '100vh',
-		animation: 'rotate 10s linear infinite', // Adjust the duration and animation name as needed
-	  };
-	
+export default function Home() {	
 	return (
 		<section className="">
 			<div className="relative h-screen flex items-center justify-center">  {/* screen-div-1 */}
 
-				<Chakra className="absolute inset-y-0 z-0 w-full h-[95vh] text-center fill-transparent dark:stroke-zinc-600 stroke-zinc-300 spin-slow"/>
+				<Chakra className="absolute inset-y-0 z-0 w-[90vh] h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-300 spin-slow"/>
 				<div className="relative z-10 p-10">
-					<div className="mt-18 mb-2 self-center">
-						<h1 className="text-left  tracking-tight text-opacity-30 dark:text-zinc-400 text-inherit text-xl lg:text-xl">Hi, This is&nbsp;</h1>
-						<h1 className="text-center self-center border-t-2 border-b-2 border-zinc-300 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
-						<h1 className="text-right tracking-tight text-xl dark:text-zinc-400  text-inherit lg:text-xl">
-							Nice to meet you!
-						</h1>
-						<h2 className="mt-2 text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl">
-							A Full Stack Developer, who loves to build things for the web.
+					<div className="mb-2 self-center">
+						<h1 className="text-center border-b-1 border-zinc-300 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
+						<h2 className=" text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl">
+							A Full Stack Developer and a Data Scientist.
 						</h2>
 					</div>
 					<div className="flex justify-center">
@@ -61,7 +47,7 @@ export default function Home() {
 			<div id="experience" className="p-4 m-4"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-12 text-5xl font-semibold bg-inherit">Experience</h2>
 				<div className="flex flex-col">
-					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-600 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Full Stack Application Developer
 						<p className="text-left text-sm bg-inherit">ACM KITS -AP INDIA | June 2018 - May 2021</p>
 						</h2>
@@ -81,7 +67,7 @@ export default function Home() {
 							</li>
 						</ul>
 					</div>
-					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-gray-500 transition-all ease-in-out duration-500">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-600 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Data Scientist
 						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence KS USA | Febraury 2023 - October 2023</p>
 						</h2>
