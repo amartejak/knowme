@@ -64,7 +64,7 @@ export const Navbar = () => {
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<Link
-								className={pathname === item.href ? 'text-orange-600' : ''}
+								className={pathname === item.href ? 'bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent' : ''}
 								color="foreground"
 								href={item.href}
 							>

@@ -8,12 +8,12 @@ export default function Home() {
 		<section className="">
 			<div className="relative h-screen flex items-center justify-center">  {/* screen-div-1 */}
 
-				<Chakra className="absolute inset-y-0 z-0 w-[90vh] h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-300 spin-slow"/>
+				<Chakra className="absolute inset-y-0 z-0 w-[90vh] h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-400 spin-slow"/>
 				<div className="relative z-10 p-10">
 					<div className="mb-2 self-center">
-						<h1 className="text-center border-b-1 border-zinc-300 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
+						<h1 className="text-center border-b-1 border-zinc-500 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
 						<h2 className=" text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl">
-							A Full Stack Developer and a Data Scientist.
+							A Full Stack Developer Application Developer.
 						</h2>
 					</div>
 					<div className="flex justify-center">
@@ -24,7 +24,7 @@ export default function Home() {
 			
 			<div id="skills" className="p-10 m-10"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-10 text-5xl font-semibold bg-inherit">My Skills</h2>
-				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4">
+				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4 max-sm:gap-2">
 					<Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" />
 					<Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" />
 					<Card title="JavaScript" alttext="javascript svg" imageUrl="/js.svg" />

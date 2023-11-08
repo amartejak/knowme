@@ -36,12 +36,12 @@ export default function RootLayout({
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-					<div className="relative flex flex-col h-screen">
+					<div className="relative flex flex-col h-screen dark:bg-gradient-to-r dark:from-zinc-900 dark:via-zinc-900 dark:to-zinc-900 bg-gradient-to-r from-zinc-300 via-zinc-300 to-zinc-300">
 						<Navbar />
-						<main className="container mx-auto pt-16 px-2 flex-grow">
+						<main className="container mx-auto pt-16 px-2 flex-grow dark:from-zinc-900 dark:via-zinc-900 dark:to-zinc-900 bg-gradient-to-r from-zinc-300 via-zinc-300 to-zinc-300">
 							{children}
 						</main>
-						<footer id="footer" className="w-full flex flex-col items-center justify-center py-3">
+						<footer id="footer" className="w-full flex flex-col items-center justify-center py-3 dark:from-zinc-900 dark:via-zinc-900 dark:to-zinc-900 bg-gradient-to-r from-zinc-300 via-zinc-300 to-zinc-300">
 							<ContactMe />
 								<span className="text-default-600">Thanks For Visiting 😊 !</span>
 						</footer>
