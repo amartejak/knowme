@@ -8,6 +8,7 @@ import {
 	NavbarItem,
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
+import Image from "next/image";
 import Link from 'next/link'
 import {Link as Nlink} from "@nextui-org/link"
 import { Kbd } from "@nextui-org/kbd";
@@ -54,7 +55,7 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<Link className="flex justify-start items-center gap-1" href="/">
-						<Logo />
+						<Image src="/logo1.ico" alt="logo" width={50} height={50}/>
 						<p className="font-bold text-inherit max-sm:hidden">AMAR TEJA KOMMINENI</p>
 						<p className="font-bold text-inherit sm:hidden">AMAR KOMMINENI</p>
 					</Link>
@@ -63,7 +64,7 @@ export const Navbar = () => {
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<Link
-								className={pathname === item.href ? 'text-orange-500 font-bold text-md' : ''}
+								className={pathname === item.href ? 'text-orange-600' : ''}
 								color="foreground"
 								href={item.href}
 							>

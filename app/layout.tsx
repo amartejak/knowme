@@ -6,7 +6,6 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import Link from 'next/link'
 import clsx from "clsx";
-import Snavbar from "@/components/snav";
 import { ContactMe } from "@/components/contactme";
 
 export const metadata: Metadata = {
@@ -16,9 +15,9 @@ export const metadata: Metadata = {
 	},
 	description: siteConfig.description,
 	icons: {
-		icon: "/react.svg",
-		shortcut: "/react.svg",
-		apple: "/react.svg",
+		icon: "/logo1.ico",
+		shortcut: "/logo1.ico",
+		apple: "/logo1.ico",
 	},
 };
 
