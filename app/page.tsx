@@ -8,7 +8,7 @@ export default function Home() {
 		<section className="">
 			<div className="relative h-screen flex items-center justify-center">  {/* screen-div-1 */}
 
-				<Chakra className="absolute inset-y-0 z-0 w-[90vh] h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-400 spin-slow"/>
+				<Chakra className="absolute inset-y-0 z-0 w-full h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-400"/>
 				<div className="relative z-10 p-10">
 					<div className="mb-2 self-center">
 						<h1 className="text-center border-b-1 border-zinc-500 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
