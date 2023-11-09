@@ -1,9 +1,8 @@
-import { title } from "@/components/primitives";
 import Image from "next/image";
 
 export default function AboutPage() {
 	return (
-		<div className="flex flex-col h-full bg-white dark:bg-black text-inherit p-4 border shadow-md rounded-lg mt-4">
+		<div className="flex flex-col h-full text-inherit p-4 border shadow-md rounded-lg mt-4">
 		<div className="flex max-lg:flex-col max-lg:self-center lg:items-center mb-4">
 		  <Image
 			className="rounded-full bg-neutral-800 hover:border max-lg:self-center lg:ml-24 lg:mr-48"
@@ -34,7 +33,7 @@ export default function AboutPage() {
 		  	<div className="flex flex-col">
 				<div className="flex flex-col max-sm:flex-shrink-0 rounded-2xl ml-4">
 					<h2 className="text-left text-md font-semibold">Full Stack Application Developer</h2>
-					<p className="text-left text-sm mb-2">ACM KITS -AP INDIA | June 2018 - May 2021</p>
+					<p className="text-left text-sm mb-2">ACM KITS - AP INDIA | June 2018 - May 2021</p>
 					
 					<ul className="list-disc  pl-8">
 						<li>

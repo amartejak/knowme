@@ -4,8 +4,8 @@ export default function ResumeLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="text-center justify-center h-screen">
+		<section className="container mx-auto w-full">
+			<div className="flex items-center justify-center">
 				{children}
 			</div>
 		</section>

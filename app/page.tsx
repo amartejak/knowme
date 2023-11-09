@@ -13,7 +13,7 @@ export default function Home() {
 					<div className="mb-2 self-center">
 						<h1 className="text-center border-b-1 border-zinc-500 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
 						<h2 className=" text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl">
-							A Full Stack Developer Application Developer.
+							A Full Stack Application Developer.
 						</h2>
 					</div>
 					<div className="flex justify-center">
@@ -24,7 +24,7 @@ export default function Home() {
 			
 			<div id="skills" className="p-10 m-10"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-10 text-5xl font-semibold bg-inherit">My Skills</h2>
-				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4 max-sm:gap-2">
+				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4">
 					<Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" />
 					<Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" />
 					<Card title="JavaScript" alttext="javascript svg" imageUrl="/js.svg" />
@@ -47,9 +47,9 @@ export default function Home() {
 			<div id="experience" className="p-4 m-4"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-12 text-5xl font-semibold bg-inherit">Experience</h2>
 				<div className="flex flex-col">
-					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-600 transition-all ease-in-out duration-500">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-transparent rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-800 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Full Stack Application Developer
-						<p className="text-left text-sm bg-inherit">ACM KITS -AP INDIA | June 2018 - May 2021</p>
+						<p className="text-left text-sm bg-inherit">ACM KITS - AP INDIA | June 2018 - May 2021</p>
 						</h2>
 						
 						<ul className="list-disc  pl-8">
@@ -67,7 +67,7 @@ export default function Home() {
 							</li>
 						</ul>
 					</div>
-					<div className="flex flex-col max-sm:flex-shrink-0 bg-[rgba(255,255,255,0.1)] rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-600 transition-all ease-in-out duration-500">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-transparent rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-800 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Data Scientist
 						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence KS USA | Febraury 2023 - October 2023</p>
 						</h2>
@@ -95,8 +95,6 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			
-			
 
 		</section>
 	);
