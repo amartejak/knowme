@@ -47,7 +47,7 @@ export default function Home() {
 			<div id="experience" className="p-4 m-4"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-12 text-5xl font-semibold bg-inherit">Experience</h2>
 				<div className="flex flex-col">
-					<div className="flex flex-col max-sm:flex-shrink-0 bg-transparent rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-800 transition-all ease-in-out duration-500">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-transparent rounded-2xl p-2 m-2 shadow-lg transform dark:hover:bg-zinc-800 hover:bg-zinc-500 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Full Stack Application Developer
 						<p className="text-left text-sm bg-inherit">ACM KITS - AP INDIA | June 2018 - May 2021</p>
 						</h2>
@@ -67,7 +67,7 @@ export default function Home() {
 							</li>
 						</ul>
 					</div>
-					<div className="flex flex-col max-sm:flex-shrink-0 bg-transparent rounded-2xl p-2 m-2 shadow-lg transform hover:bg-zinc-800 transition-all ease-in-out duration-500">
+					<div className="flex flex-col max-sm:flex-shrink-0 bg-transparent rounded-2xl p-2 m-2 shadow-lg transform dark:hover:bg-zinc-800 hover:bg-zinc-500 transition-all ease-in-out duration-500">
 						<h2 className="text-left mb-6 text-3xl font-semibold">Data Scientist
 						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence KS USA | Febraury 2023 - October 2023</p>
 						</h2>

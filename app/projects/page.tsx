@@ -30,7 +30,7 @@ export default function ProjectsPage() {
 				<h1 className="text-center font-semibold text-3xl py-2 m-2 border-b border-zinc-800">Web Search Engine</h1>
 				<p className="text-zinc-400 p-2">Built the niche crawler in python to crawl over the webpages and retrieve data. Done the indexing and processing of data retrieved. Built the search engine homepage using Java script, CSS, and html. Deployed the search engine on the web.</p>
 				<Link
-                href="https://github.com/amartejak/knowme.git"
+                href="https://github.com/amartejak/Ku-Search-Engine.git"
                 target="_blank"
                 className="flex items-center justify-center text-inherit font-medium px-4 py-2 gap-2 rounded-full hover:border hover:border-zinc-700 hover:shadow-md hover:shadow-zinc-700/50"
             >
@@ -54,7 +54,7 @@ export default function ProjectsPage() {
 				<p className="text-zinc-400 p-2">This cross platform App which is built through Ionic framework. By using Ionic we can get a web app, android app, IOS app.	Made this app for the transport department.	Created a unique QR code for every person. Instead of carrying their physical pass they can just show QR code in the mobile. 
 				</p>
 				<Link
-                href="https://github.com/amartejak/knowme.git"
+                href="https://github.com/amartejak/bustick.git"
                 target="_blank"
                 className="flex items-center justify-center text-inherit font-medium px-4 py-2 gap-2 rounded-full hover:border hover:border-zinc-700 hover:shadow-md hover:shadow-zinc-700/50"
             >
