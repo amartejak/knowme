@@ -6,17 +6,17 @@ import { Chakra } from "@/components/icons";
 export default function Home() {	
 	return (
 		<section className="">
-			<div className="relative h-screen flex items-center justify-center">  {/* screen-div-1 */}
+			<div className="relative h-[95vh] flex items-center justify-center">  {/* screen-div-1 */}
 
-				<Chakra className="absolute inset-y-0 z-0 w-full h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-400"/>
+				<Chakra className="max-sm:hidden absolute inset-y-0 z-0 w-full h-[90vh] text-center fill-transparent dark:stroke-zinc-700 stroke-zinc-400"/>
 				<div className="relative z-10 p-10">
 					<div className="mb-2 self-center">
-						<h1 className="text-center border-b-1 border-zinc-500 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 tracking-tight font-semibold text-4xl lg:text-5xl">Amar&nbsp;Teja Kommineni</h1>
-						<h2 className=" text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl">
+						<h1 className="text-center border-b-1 border-zinc-500 border-opacity-30 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 tracking-tight font-semibold text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl">Amar&nbsp;Teja Kommineni</h1>
+						<h2 className=" text-center tracking-tight dark:text-zinc-300 text-inherit text-xl lg:text-2xl 2xl:text-6xl">
 							A Full Stack Application Developer.
 						</h2>
 					</div>
-					<div className="flex justify-center">
+					<div className="flex 2xl:mt-4 justify-center">
 						<SubNavbar />
 					</div>	
 				</div>
@@ -52,18 +52,59 @@ export default function Home() {
 						<p className="text-left text-sm bg-inherit">ACM KITS - AP INDIA | June 2018 - May 2021</p>
 						</h2>
 						
-						<ul className="list-disc  pl-8">
+						<ul className="pl-8">
 							<li>
-							Actively participated in software development projects. This involved writing code, both front-end (HTML, CSS, JS/TypeScript - React) and back-end (Java - Node.js, Python - Django), to implement new features and functionalities for our applications.
-							</li>
-							<li>
-							Managed databases, creating and modifying databases, writing SQL queries to extract, insert, and update the databases.
-							</li>
-							<li>
-							Participated in code reviews with senior developers and team members. This allowed me to receive feedback on my code and learn from experienced developers&apos; best practices.
-							</li>
-							<li>
-							Delivered 20+ software features and enhancements, developed software components resulting in an average 50% increase in development speed.
+								<ul className="list-disc pl-4">
+									<li className="list-none mb-2">Lead the development and implementation of innovative web solutions, contributing to the company&apos;s success in delivering high-quality products to clients.</li>
+									<li>
+										<strong>Front-End Development:</strong>
+										<ul className="pl-8">
+											<li>Spearheaded the front-end development of several client projects, utilizing advanced skills in HTML, CSS, and JavaScript.</li>
+											<li>Developed responsive and intuitive user interfaces using React.js, enhancing the overall user experience and engagement.</li>
+										</ul>
+									</li>
+									<li>
+										<strong>Back-End Development:</strong>
+										<ul className="pl-8">
+											<li>Designed and implemented robust server-side applications using Node.js, ensuring efficient data processing and system reliability.</li>
+											<li>Managed and optimized relational databases (MySQL) for improved performance and scalability.</li>
+										</ul>
+									</li>
+									<li>
+										<strong>API Development:</strong>
+										<ul className="pl-8">
+											<li>Engineered RESTful APIs to facilitate seamless communication between front-end and back-end systems, enabling efficient data exchange.</li>
+											<li>Implemented secure authentication mechanisms to safeguard user data and privacy.</li>
+										</ul>
+									</li>
+									<li>
+										<strong>Collaborative Development:</strong>
+										<ul className="pl-8">
+											<li>Worked collaboratively with cross-functional teams, participating in Agile/Scrum ceremonies to ensure project alignment with business goals.</li>
+											<li>Utilized Git for version control, leading to streamlined collaboration and efficient code management.</li>
+										</ul>
+									</li>
+									<li>
+										<strong>Deployment and Infrastructure:</strong>
+										<ul className="pl-8">
+											<li>Orchestrated deployment processes using AWS, automating server configurations and enhancing system scalability.</li>
+											<li>Monitored and maintained production environments, ensuring system availability and reliability.</li>
+										</ul>
+									</li>
+									<li>
+										<strong>Continuous Improvement:</strong>
+										<ul className="pl-8">
+											<li>Actively participated in ongoing professional development, staying abreast of emerging technologies and integrating them into project workflows.</li>
+											<li>Implemented testing strategies, including unit testing and integration testing, resulting in a reduction of post-release issues by 20%.</li>
+										</ul>
+									</li>
+									<li>
+										<strong>Client Interaction:</strong>
+										<ul className="pl-8">
+											<li>Engaged with clients to understand project requirements, provided technical insights, and delivered solutions that exceeded expectations.</li>
+										</ul>
+									</li>
+								</ul>
 							</li>
 						</ul>
 					</div>
@@ -72,7 +113,7 @@ export default function Home() {
 						<p className="text-left text-sm bg-inherit">University of Kansas - Lawrence KS USA | Febraury 2023 - October 2023</p>
 						</h2>
 						
-						<ul className="list-disc  pl-8">
+						<ul className="list-disc  pl-12">
 							<li>
 							Leveraged Python, SQL, and machine learning libraries (e.g., TensorFlow, Scikit-learn) to analyze complex datasets and develop predictive models.
 							</li>

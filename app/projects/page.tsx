@@ -42,7 +42,7 @@ export default function ProjectsPage() {
 				<p className="text-zinc-400 p-2">I developed a dynamic website for Acm Kits. To post all event details and displaying about the ACM weekly events and Tech Talks. I developed it as complete dynamic website with admin panel so that every UI component can be manipulated by the admin itself without changing the code all time. 
 				</p>
 				<Link
-                href="https://github.com/amartejak/knowme.git"
+                href="https://github.com/amartejak/KITS-ACM.git"
                 target="_blank"
                 className="flex items-center justify-center text-inherit font-medium px-4 py-2 gap-2 rounded-full hover:border hover:border-zinc-700 hover:shadow-md hover:shadow-zinc-700/50"
             >
