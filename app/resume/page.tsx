@@ -5,9 +5,9 @@ export default function ResumePage() {
 	return (
 		<div className="flex flex-col h-full text-inherit p-4 border shadow-md rounded-lg mt-4">
 		<div className="flex lg:justify-between max-lg:flex-col max-lg:self-center lg:items-center mb-4">
-		  <div>
+		  <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center">
 			<h1 className="text-5xl max-lg:mt-10 text-center font-semibold">Amar Teja Kommineni</h1>
-			<a  href="mailto:amarteja2@gmail.com" className="text-gray-500 max-lg:text-center ">amarteja2@gmail.com</a>
+			<a  href="mailto:amarteja2@gmail.com" className="text-gray-500">amarteja2@gmail.com</a>
 		  </div>
 		  {/* <div className="self-center max-lg:pt-4">
 			<Link href="/resume.pdf" target="_blank">
