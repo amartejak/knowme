@@ -57,7 +57,7 @@ export const Navbar = () => {
 					<Link className="flex justify-start items-center gap-1" href="/">
 						<Image src="/logo1.ico" alt="logo" width={50} height={50}/>
 						<p className="font-bold text-inherit max-sm:hidden mr-8 xl:mr-2">AMAR TEJA KOMMINENI</p>
-						<p className="font-bold text-inherit sm:hidden">AMAR KOMMINENI</p>
+						<p className="font-bold text-inherit sm:hidden max-sm:mr-4">AMAR KOMMINENI</p>
 					</Link>
 				</NavbarBrand>
 				<ul className="max-lg:hidden flex gap-4 justify-start ml-2">
@@ -125,7 +125,6 @@ export const Navbar = () => {
 						<Link href={siteConfig.links.instagram} target="_blank" aria-label="Instagram">
 							<InstagramIcon className="text-default-500" />
 						</Link>
-						<ThemeSwitch />
 					</NavbarMenuItem>
 					{siteConfig.navMenuItems.map((item) => (
 						<NavbarMenuItem key={item.href}>

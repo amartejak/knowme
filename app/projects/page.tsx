@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function ProjectsPage() {
 	return (
 		<div className="w-full h-full flex flex-col">
-			<h1 className="text-bold text-5xl py-4 text-center text-zinc-400 my-4 border-b border-zinc-700">Projects</h1>
+			<h1 className="text-bold text-5xl pb-10 pt-4 text-center mb-6 border-b border-zinc-700">Projects</h1>
 			<div className="grid grid-cols-1 mx-auto lg:grid-cols-2">
 			<ProjectCard>
 				<h1 className="font-semibold text-3xl text-center border-b py-2 m-2 border-zinc-800">Portfolio</h1>

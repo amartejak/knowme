@@ -14,7 +14,7 @@ const SubNavbar: React.FC = () => {
           <a href="#contact" className="text-inherit hover:text-white font-medium px-4 py-1 2xl:py-2 rounded-full  border border-zinc-300 hover:bg-black hover:border-gray-700 shadow-sm shadow-zinc-700/50">Contact</a>
         </li>
         <li>
-          <a href="/resume.pdf" target='blank_' className="text-inherit hover:text-white font-medium px-4 py-1 2xl:py-2 rounded-full border border-zinc-300 hover:bg-black hover:border-gray-700 shadow-sm shadow-zinc-700/50">Resume</a>
+          <a href="/resume" className="text-inherit hover:text-white font-medium px-4 py-1 2xl:py-2 rounded-full border border-zinc-300 hover:bg-black hover:border-gray-700 shadow-sm shadow-zinc-700/50">Resume</a>
         </li>
       </ul>
     </nav>
