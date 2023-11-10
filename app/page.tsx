@@ -25,21 +25,26 @@ export default function Home() {
 			<div id="skills" className="p-10 m-10"> {/* screen-div-2 */}
 				<h2 className="text-center mb-10 mt-10 text-5xl font-semibold bg-inherit">My Skills</h2>
 				<div className="grid grid-cols-2 mg:grid-cols-3 lg:grid-cols-4">
+					<Card title="NextJs"  alttext="nextjs svg" imageUrl="/nextlogo.svg" />
 					<Card title="React"  alttext="reactjs svg" imageUrl="/react.svg" />
 					<Card title="NodeJs"  alttext="nodejs svg" imageUrl="nodejs.svg" />
 					<Card title="JavaScript" alttext="javascript svg" imageUrl="/js.svg" />
 					<Card title="HTML" alttext="html svg" imageUrl="/html.svg" />
 					<Card title="CSS" alttext="css svg" imageUrl="/css.svg" />
+					<Card title="Tailwind CSS"  alttext="tailwind svg" imageUrl="/tailwind.svg" />
 					<Card title="AWS"  alttext="aws svg" imageUrl="/aws.svg" />
 					<Card title="Git"  alttext="git svg" imageUrl="/git.svg" />
+					<Card title="RestAPI"  alttext="restapi svg" imageUrl="/restapi.svg" />
+					<Card title="PHP"  alttext="php svg" imageUrl="/phplogo.svg" />
 					<Card title="Python"  alttext="python svg" imageUrl="/python.svg" />
 					<Card title="Django"  alttext="Django svg" imageUrl="/django.svg" />
 					<Card title="Flask"  alttext="flask svg" imageUrl="/flask.svg" />
 					<Card title="Mongo DB"  alttext="mongodb svg" imageUrl="/mongodb.svg" />
 					<Card title="MYSQL"  alttext="mysql svg" imageUrl="/mysql.svg" />
 					<Card title="Linux"  alttext="linux png" imageUrl="/linux.png" />
+					<Card title="C++"  alttext="c++ svg" imageUrl="/c++logo.svg" />
 					<Card title="Java"  alttext="java svg" imageUrl="/java.svg" />
-					<Card title="Flutter"  alttext="flutter svg" imageUrl="/flutter.svg" />
+					{/* <Card title="Flutter"  alttext="flutter svg" imageUrl="/flutter.svg" /> */}
 					<Card title="R"  alttext="Rlanguage svg" imageUrl="/rlang.svg" />
 				</div>
 			</div>

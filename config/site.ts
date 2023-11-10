@@ -44,6 +44,6 @@ export const siteConfig = {
 		twitter: "https://twitter.com/1Amarteja",
 		instagram: "https://www.instagram.com/amarteja_kommineni",
 		linkedin: "https://www.linkedin.com/in/amar-teja-kommineni-a5229b141",
-		email: "mailto:amarteja2@outlook.com"
+		email: "mailto:amarteja2@gmail.com"
 	},
 };
