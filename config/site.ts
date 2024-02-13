@@ -43,7 +43,7 @@ export const siteConfig = {
 		github: "https://github.com/amartejak",
 		twitter: "https://twitter.com/1Amarteja",
 		instagram: "https://www.instagram.com/amarteja_kommineni",
-		linkedin: "https://www.linkedin.com/in/amar-teja-kommineni-a5229b141",
-		email: "mailto:amarteja2@gmail.com"
+		linkedin: "https://www.linkedin.com/in/amar-kommineni-b215ba2b0",
+		email: "mailto:atkommineni@gmail.com"
 	},
 };
