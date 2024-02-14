@@ -7,7 +7,7 @@ export default function ResumePage() {
 		<div className="flex lg:justify-between max-lg:flex-col max-lg:self-center lg:items-center mb-4">
 		  <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center">
 			<h1 className="text-5xl max-lg:mt-10 text-center font-semibold">Amar Teja Kommineni</h1>
-			<a  href="mailto:amarteja2@gmail.com" className="text-gray-500">atkommineni@gmail.com</a>
+			<a  href="mailto:atkommineni@gmail.com" className="text-gray-500">atkommineni@gmail.com</a>
 		  </div>
 		  {/* <div className="self-center max-lg:pt-4">
 			<Link href="/resume.pdf" target="_blank">
