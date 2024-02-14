@@ -7,7 +7,7 @@ export default function ResumePage() {
 		<div className="flex lg:justify-between max-lg:flex-col max-lg:self-center lg:items-center mb-4">
 		  <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center">
 			<h1 className="text-5xl max-lg:mt-10 text-center font-semibold">Amar Teja Kommineni</h1>
-			<a  href="mailto:amarteja2@gmail.com" className="text-gray-500">amarteja2@gmail.com</a>
+			<a  href="mailto:amarteja2@gmail.com" className="text-gray-500">atkommineni@gmail.com</a>
 		  </div>
 		  {/* <div className="self-center max-lg:pt-4">
 			<Link href="/resume.pdf" target="_blank">
@@ -19,7 +19,7 @@ export default function ResumePage() {
 		<div className="mb-4">
 		  <h2 className="text-lg mb-2 font-semibold">Education:</h2>
 		  <h2 className="text-left text-md font-semibold ml-4">University of Kansas  -  Masters in Computer Science</h2>
-					<p className="text-left text-sm mb-2 ml-4">Lawrence, KS, USA | January 2022 - present</p>
+					<p className="text-left text-gray-500 text-sm mb-2 ml-4">Lawrence, KS, USA | Jan 2022 - Dec 2023</p>
 		</div>
 		<div className="mb-4">
 		  <h2 className="text-lg mb-2 font-semibold">Experience:</h2>
